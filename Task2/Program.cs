@@ -13,7 +13,7 @@ value2 = Console.ReadLine();
 int b = Convert.ToInt32(value2);
 string value3;
 value3 = Console.ReadLine();
-int с = Convert.ToInt32(value3);
+int c = Convert.ToInt32(value3);
 
 int max = a;
 if (b > max) max = b;
