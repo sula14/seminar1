@@ -7,13 +7,13 @@ System.Console.WriteLine("Введите число >");
 string value;
 value = Console.ReadLine();
 int N = Convert.ToInt32(value);
-int num = 1;
+int num = 2;
 
-while (num < N)
+while (num <= N)
 {
     if (num % 2 == 0)
     {
         System.Console.WriteLine(num);
     }
-    num++;
+    num+=2;
 }
